@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/dark_grey">
+
+    <!-- First Prediction -->
+    <Button
+        android:id="@+id/prediction1"
+        style="@style/btnDarkTheme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <!-- Second Prediction -->
+    <Button
+        android:id="@+id/prediction2"
+        style="@style/btnDarkTheme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:shadowRadius="0"/>
+
+    <!-- Third Prediction -->
+    <Button
+        android:id="@+id/prediction3"
+        style="@style/btnDarkTheme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+</LinearLayout>

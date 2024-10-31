@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE LinearLayout [
+
+    ]>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/prediction_word" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_grey"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btn2"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btn4"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btn5"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btn6"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:background="@drawable/btn_white_ripple"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btn7"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:background="@drawable/btn_white_ripple"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btn8"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn9"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btn0"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/btnQuote"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="`" />
+
+            <Button
+                android:id="@+id/btnTilde"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="~" />
+
+            <Button
+                android:id="@+id/btnBackslash"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="\\" />
+
+            <Button
+                android:id="@+id/btnBar"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="|" />
+
+            <Button
+                android:id="@+id/btnLBrace"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="{" />
+
+            <Button
+                android:id="@+id/btnRBrace"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="}" />
+
+            <Button
+                android:id="@+id/btnEuro"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="€" />
+
+            <Button
+                android:id="@+id/btnPound"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="£" />
+
+            <Button
+                android:id="@+id/btnYen"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="¥" />
+
+            <Button
+                android:id="@+id/btnRupee"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="₹" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/btnSEC"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="°" />
+
+            <Button
+                android:id="@+id/btnSFC"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="•" />
+
+            <Button
+                android:id="@+id/btnBEC"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="○" />
+
+            <Button
+                android:id="@+id/btnBFC"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="●" />
+
+            <Button
+                android:id="@+id/btnBES"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="□" />
+
+            <Button
+                android:id="@+id/btnBFS"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="■" />
+
+            <Button
+                android:id="@+id/btnSpade"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="♤" />
+
+            <Button
+                android:id="@+id/btnHeart"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="♡" />
+
+            <Button
+                android:id="@+id/btnDiamond"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="◇" />
+
+            <Button
+                android:id="@+id/btnClub"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="♧" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/btnSymPage"
+                style="@style/btnDarkTheme"
+                android:layout_weight="1.5"
+                android:text="2/2" />
+
+            <Button
+                android:id="@+id/btnStar"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="☆" />
+
+            <Button
+                android:id="@+id/btnSFS"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="▪︎" />
+
+            <Button
+                android:id="@+id/btnCurrency"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="¤" />
+
+            <Button
+                android:id="@+id/btnLGuillemet"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="《" />
+
+            <Button
+                android:id="@+id/btnRGuillemet"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="》" />
+
+            <Button
+                android:id="@+id/btnUDExcl"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="¡" />
+
+            <Button
+                android:id="@+id/btnUDQuest"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="¿" />
+
+            <Button
+                android:id="@+id/btnBackSpace"
+                style="@style/btnDarkTheme"
+                android:layout_weight="1.5"
+                android:text="⌫" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/btnSym"
+                style="@style/btnLightTheme"
+                android:layout_weight="1.5"
+                android:text="abc" />
+
+            <Button
+                android:id="@+id/btnComma"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="," />
+
+            <Button
+                android:id="@+id/btnSpace"
+                style="@style/btnLightTheme"
+                android:layout_weight="5" />
+
+            <Button
+                android:id="@+id/btnDot"
+                style="@style/btnLightTheme"
+                android:layout_weight="1"
+                android:text="." />
+
+            <Button
+                android:id="@+id/btnEnter"
+                style="@style/btnDarkTheme"
+                android:layout_weight="1.5"
+                android:text="GO" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

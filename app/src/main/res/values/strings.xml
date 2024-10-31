@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Keyboard</string>
+    <string name="mykeyboard">MyKeyboard</string>
+    <string name="enable_keyboard">enable keyboard</string>
+    <string name="choose_keyboard">Choose Keyboard</string>
+    <string name="apostrophe">Apostrophe</string>
+    <string name="quote">Quote</string>
+    <string name="tilde">Tilde</string>
+    <string name="uparrow">Uparrow</string>
+    <string name="umlaut1">Umlaut1</string>
+    <string name="umlaut2">Umlaut2</string>
+    <string name="umlaut3">Umlaut3</string>
+    <string name="q">q</string>
+    <string name="w">w</string>
+    <string name="e">e</string>
+    <string name="r">r</string>
+    <string name="t">t</string>
+    <string name="u">u</string>
+    <string name="y">y</string>
+    <string name="i">i</string>
+    <string name="o">o</string>
+</resources>
